@@ -8,7 +8,7 @@ View(lkrer)
 lkrer$Date <- as.Date(lkrer$Date)
 colnames(lkrer) <- c("Currency",
                      "Date",
-                     "Exchnge.Rate")
+                     "Exchange.Rate")
 lkrer <- as_tsibble(lkrer,
                     index=Date,
                     key=Currency)
