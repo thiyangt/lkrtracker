@@ -1,0 +1,13 @@
+Package: lkrtracker
+Title: Daily Indicative Exchange Rates: LKR Per 1 Unit of World Currencies
+Version: 0.0.0.9000
+Authors@R: 
+     person("Thiyanga S.", "Talagala", email = "ttalagala@sjp.ac.lk", role = c("aut", "cre"),  comment=c(ORCID = "0000-0002-0656-9789"))
+Description: Indicative exchange rates are derived based on world currency rates against the US dollar at the beginning of the business day and the indicative rate of the USD/LKR spot exchange rate (LKR per 1 Unit).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
